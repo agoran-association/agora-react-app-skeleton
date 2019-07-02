@@ -9,7 +9,7 @@ import StreamPlayer from "agora-stream-player";
 import { ClientConfig } from "agora-rtc-sdk";
 
 import { useSnackbar } from "./configures/_configureSnackbar";
-import { useMediaStream } from "./hooks";
+import useMediaStream from "./hooks/_useMediaStream";
 import AgoraRTC from "./configures/_configureAgoraRTC";
 import BasicForm from "./components/_BasicForm";
 
